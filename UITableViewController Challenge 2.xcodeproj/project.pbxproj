@@ -14,13 +14,13 @@
 		0B370884184925DC00A028BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B370883184925DC00A028BC /* main.m */; };
 		0B370888184925DC00A028BC /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B370887184925DC00A028BC /* TLAppDelegate.m */; };
 		0B37088B184925DC00A028BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B370889184925DC00A028BC /* Main.storyboard */; };
-		0B37088E184925DC00A028BC /* TLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B37088D184925DC00A028BC /* TLViewController.m */; };
 		0B370890184925DC00A028BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B37088F184925DC00A028BC /* Images.xcassets */; };
 		0B370897184925DC00A028BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B370896184925DC00A028BC /* XCTest.framework */; };
 		0B370898184925DC00A028BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B370877184925DC00A028BC /* Foundation.framework */; };
 		0B370899184925DC00A028BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B37087B184925DC00A028BC /* UIKit.framework */; };
 		0B3708A1184925DC00A028BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B37089F184925DC00A028BC /* InfoPlist.strings */; };
 		0B3708A3184925DC00A028BC /* UITableViewController_Challenge_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3708A2184925DC00A028BC /* UITableViewController_Challenge_2Tests.m */; };
+		0B3708AE1849260F00A028BC /* TLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3708AD1849260F00A028BC /* TLViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		0B370886184925DC00A028BC /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
 		0B370887184925DC00A028BC /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
 		0B37088A184925DC00A028BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0B37088C184925DC00A028BC /* TLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLViewController.h; sourceTree = "<group>"; };
-		0B37088D184925DC00A028BC /* TLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLViewController.m; sourceTree = "<group>"; };
 		0B37088F184925DC00A028BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0B370895184925DC00A028BC /* UITableViewController Challenge 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B370896184925DC00A028BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0B37089E184925DC00A028BC /* UITableViewController Challenge 2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge 2Tests-Info.plist"; sourceTree = "<group>"; };
 		0B3708A0184925DC00A028BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0B3708A2184925DC00A028BC /* UITableViewController_Challenge_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_2Tests.m; sourceTree = "<group>"; };
+		0B3708AC1849260F00A028BC /* TLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLViewController.h; sourceTree = "<group>"; };
+		0B3708AD1849260F00A028BC /* TLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				0B370886184925DC00A028BC /* TLAppDelegate.h */,
 				0B370887184925DC00A028BC /* TLAppDelegate.m */,
 				0B370889184925DC00A028BC /* Main.storyboard */,
-				0B37088C184925DC00A028BC /* TLViewController.h */,
-				0B37088D184925DC00A028BC /* TLViewController.m */,
+				0B3708AC1849260F00A028BC /* TLViewController.h */,
+				0B3708AD1849260F00A028BC /* TLViewController.m */,
 				0B37088F184925DC00A028BC /* Images.xcassets */,
 				0B37087E184925DC00A028BC /* Supporting Files */,
 			);
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B37088E184925DC00A028BC /* TLViewController.m in Sources */,
+				0B3708AE1849260F00A028BC /* TLViewController.m in Sources */,
 				0B370888184925DC00A028BC /* TLAppDelegate.m in Sources */,
 				0B370884184925DC00A028BC /* main.m in Sources */,
 			);
